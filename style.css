@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #8f8f8f;
+    user-select: none;
+}
+
+.container{
+    margin: 15% 2.5%;
+    position: relative;
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 4px 6px 20px rgba(0, 0, 0, 80%);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#bgimg{
+    background: url(./assets/2022-happy-new-year-wallpaper-download-1.jpg) center/cover;
+    position: relative;
+    min-height: 450px;
+}
+
+#content{
+    width: 91%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    top: 320px;
+    padding: 5%;
+    text-align: center;
+    color: burlywood;
+    text-shadow: 2px 2px 4px rgb(87, 87, 87);
+    text-decoration-style: wavy;
+    font-weight: bold;
+    font-family: Lobster Two;
+}
+
+p{
+    line-height: 1;
+    word-spacing: 5px;
+}
